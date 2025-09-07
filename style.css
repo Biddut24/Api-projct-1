@@ -1,77 +1,30 @@
-body {
-  font-family: Arial, sans-serif;
+
+body{
   margin: 0;
   padding: 0;
-  text-align: center;
-  background: #f4f4f4;
+}
+h3 a {
+  text-decoration: none;
+  color: black;
+}
+.navber {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   
 }
 
-header {
-  background: #4CAF50;
-  padding: 15px;
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
+.navber ul li {
+  display: inline;
+  margin-left: 50px;
 }
 
-.btn-group {
-  margin: 20px;
-}
-
-button {
-  padding: 10px 20px;
-  margin: 5px;
-  border: none;
-  border-radius: 8px;
-  background: #4CAF50;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-button:hover {
-  background: #45a049;
-}
-
-#output {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
-
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 15px;
-  text-align: left;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
-}
-
-.card:hover {
-  transform: scale(1.03);
-}
-
-.card img {
-  border-radius: 50%;
-  display: block;
-  margin: 10px auto 0;
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-}
-
-h3 {
-  margin: 0 0 10px 0;
-  font-size: 18px;
-  color: #333;
-}
-
-p {
-  margin: 5px 0;
-  font-size: 14px;
-  color: #555;
+.navber ul li a {
+  text-decoration: none;
+  color: black;
 }
